@@ -46,6 +46,8 @@ motion-capture-glove-tracking/
   ├── SADIE - CubeFest - 02Aug2019/     # Main project performance-specific files, patches, configuration, or assets used during the CubeFest presentation.
   
   ├── BespokeUnityLibrary.unitypackage  # Custom Unity library package containing scripts/components for receiving and interpreting motion capture data inside Unity.
+
+  ├── LICENSE                           # This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE) file for details.
   
   └── README.md                         # This file
 
@@ -130,7 +132,13 @@ Contributions are welcome! Areas for potential contribution:
 - Cube Fest 2019 organizers and participants
 
 ## License
-(coming up...)
+
+MIT License
+
+Copyright (c) 2026 Disha Sardana
+
+Permission is hereby granted, free of charge, to any person obtaining a copy...
+(see the full text in [LICENSE](./LICENSE))
 
 ## Contact
 For questions or collaboration opportunities:
