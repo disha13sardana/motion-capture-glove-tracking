@@ -71,18 +71,19 @@ motion-capture-glove-tracking/
          - The glove tracking script will be added to your scene
          - The recognized gestures will be mapped to sound parameters (spatialization, reverb, granular synthesis, etc.)
 
-3. Motion Capture System
+3. Motion Capture System Calibration
    - Ensure your motion capture hardware is properly configured
-   - Set up tracking markers on glove elements according to your system's requirements. Once set up, configure marker IDs/ rigid body names corresponding to your glove markers and calibrate
+   - Set up tracking markers on glove elements according to your system's requirements
+   - Once set up, configure marker IDs/ rigid body names corresponding to your glove markers and calibrate
   <p align="center">
-   <img width="40%" height="auto" alt="tracking-markers image" src="https://github.com/user-attachments/assets/261ccc71-5c41-40f9-a9e5-6de9d213bd40" />
+   <img width="42%" height="auto" alt="tracking-markers image" src="https://github.com/user-attachments/assets/261ccc71-5c41-40f9-a9e5-6de9d213bd40" />
   </p>
 
-  _Streaming to Unity_
-    - - Install a motion capture server/streaming software that outputs marker positions (e.g., via OSC, NatNet, VRPN, or custom UDP stream)
-      - Configure coordinate streaming to Unity
-      - Run the motion capture system → Unity should receive live hand data gestures
-      
+4. Streaming to Unity
+    - Install a motion capture server/streaming software that outputs marker positions (e.g., via OSC, NatNet, VRPN, or custom UDP stream)
+    - Configure coordinate streaming to Unity
+    - Run the motion capture system → Unity should receive live hand data gestures
+    
   <p align="center">
    <img width="50%" height="auto" alt="tracking-in-unity image" src="https://github.com/user-attachments/assets/7b635197-a6ae-4bfd-9168-75aaefa17bcc" />
   </p>
